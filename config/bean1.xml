@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--ioc入门-->
+    <bean id="user" class="cn.itcast.ioc.User"></bean>
+
+    <!--&lt;!&ndash;静态工厂bean2对象&ndash;&gt;-->
+    <!--<bean id="bean2" class="cn.itcast.bean.Bean2Factory" factory-method="getBean2"></bean>-->
+
+    <!--&lt;!&ndash;实例工厂&ndash;&gt;-->
+    <!--<bean id="bean3Factory" class="cn.itcast.bean.Bean3Factory"></bean>-->
+    <!--<bean id="bean3" factory-bean="bean3Factory" factory-method="getBean3" ></bean>-->
+</beans>
